@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="py-4 border-t border-gray-200 my-10">
-      <div className="grid lg:grid-cols-3 p-4 gap-4 text-center">
+    <footer className="py-4 border-t border-gray-700 bg-black text-white">
+      <div className="grid lg:grid-cols-3 p-4 gap-4">
         {/* COL1 */}
         <div>
           <p>Jay Khan</p>

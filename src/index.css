@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono&display=swap');
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  cursor: crosshair;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,20 +56,24 @@
 .circle.sm {
   width: 30px;
   height: 30px;
-  background-color: aquamarine;
+  background-color: orange;
   border-radius: 50px;
 }
 
 .circle.md {
   width: 60px;
   height: 60px;
-  background-color: aquamarine;
+  background-color: orange;
   border-radius: 50px;
 }
 
 .circle.lg {
   width: 90px;
   height: 90px;
-  background-color: aquamarine;
+  background-color: orange;
   border-radius: 50px;
+}
+
+#save-bitcoin {
+  background-color: #faf9f8;
 }

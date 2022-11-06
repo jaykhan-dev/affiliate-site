@@ -7,6 +7,7 @@ import {
 } from 'react'
 import Footer from './components/Footer'
 import { gsap } from 'gsap'
+import Nav from './components/Nav'
 import Intro from './components/Intro'
 
 const Circle = forwardRef(({ size, delay }, ref) => {
@@ -56,19 +57,10 @@ function App() {
 
   return (
     <div className="app">
-      <Circle size="sm" ref={addCircleRef} delay={0} className="rounded-full" />
-      <Circle
-        size="md"
-        ref={addCircleRef}
-        delay={0.1}
-        className="rounded-full"
-      />
-      <Circle
-        size="lg"
-        ref={addCircleRef}
-        delay={0.2}
-        className="rounded-full"
-      />
+      <Circle size="sm" ref={addCircleRef} delay={0} />
+      <Circle size="md" ref={addCircleRef} delay={0.1} />
+      <Circle size="lg" ref={addCircleRef} delay={0.2} />
+      <Nav />
       <Intro />
       <Footer />
     </div>
