@@ -4,5 +4,6 @@
   "trailingComma": "none",
   "arrowParens": "always",
   "endOfLine": "lf",
-  "space-before-function-paren": false
+  "space-before-function-paren": false,
+  "htmlWhitespaceSensitivity": "css"
 }
